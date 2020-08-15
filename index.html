@@ -1,0 +1,396 @@
+<!DOCTYPE html><html lang="en-GB"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>CRIYSTYLIS</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript" ></script>
+<script src="cristaylisBUY_files/JS/JS/jquery.smartCart.min.js" type="text/javascript"></script>
+<script type="text/javascript">$(document).ready(function(){$('#smartcart').smartCart();DKMT_RDY();});</script>
+<meta charset="UTF-8">
+<script type="text/javascript" src="cristaylisBUY_files/data/A/prA.js"></script>
+<script type="text/javascript" src="cristaylisBUY_files/data/K/prK.js"></script>
+<script type="text/javascript" src="cristaylisBUY_files/data/V/prV.js"></script>
+
+<script type="text/javascript" src="cristaylisBUY_files/JS/JS.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cristaylisBUY_files/CSS/w3.css">
+<link rel="stylesheet" href="cristaylisBUY_files/CSS/crap.css">
+
+
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+	<!-- Include SmartCart CSS -->
+    <link href="cristaylisBUY_files/EXTRA/smartcart/css/smart_cart.min.css" rel="stylesheet" type="text/css">
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head><body  id="tope" style="font-family: initial;"><!-- Links (sit on top) --> 
+
+
+
+<header class="w3-bar w3-top  w3-black w3-large" style="z-index:5;">
+  <div class="w3-bar-item w3-padding-2 w3-wide w3-center" style="float:unset;">
+   <div  id="nsl-1">CRIYSTYLIS <i class="fa fa-diamond "></i> </div>
+  </div>     
+ 
+</header>
+
+<!-- Content   -->
+<div class="w3-content"  style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+
+  <!-- Slideshow  produktite-->
+  <div class="w3-container"> <br />
+    <section class="container"><div class="row">
+     <div class="col-md-8"><div class="panel panel-default">     <div class="panel-heading">
+	 
+	 	<div id="myBtnContainer" class="w3-center">
+  <button class="btn" onclick="filterSelection('*K');shIFO(false);"> page 1</button>
+  <button class="btn" onclick="filterSelection('*V');shIFO(false);"> page 2</button><br>
+  <button class="btn" onclick="filterSelection('*A');shIFO(false);"> Special</button>
+  <br>
+  <div class="info">
+  <br>
+ tuka ke se se stavat ekstra info za bonusnu cuponski i promociski ceni meni
+ <br>  <br> 
+    <img    src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width:100%;border-radius:44px;" >
+   <br>  <br>55 E
+  </div>
+  
+</div>	
+
+<div id="myModalINFO" class="modal">
+  <span class="close cursor " style="color:red;opacity:1;text-shadow: none;" onclick="SHOWmodalinfo(false);">&times;</span>
+  <div class="modal-content w3-transparent w3-padding-8" style="padding-top: 55px;" >
+
+    <div class="mySlides w3-modal-content w3-animate-zoom w3-center"  style="max-width: 600px;" >
+      <img id="Simg_1" class="w3-image">
+    </div>
+
+    <div class="mySlides w3-modal-content w3-animate-zoom w3-center"  style="max-width: 600px;" >
+      <img id="Simg_2" class="w3-image">
+    </div>
+
+    <div class="mySlides w3-modal-content w3-animate-zoom w3-center" style="max-width: 600px;" >
+      <img id="Simg_3" class="w3-image" >
+    </div>
+    
+    <div class="mySlides w3-modal-content w3-animate-zoom w3-center" style="max-width: 600px;" >
+      <img id="Simg_4" class="w3-image">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="captionSS"></p>
+    </div>
+
+<!-- ova e 2 modal form i ovie tekstcina se za niv-->
+    <div class="column"           style="display:none;">
+      <img id="Dimg_1"  class="demo cursor" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column"           style="display:none;">
+      <img  id="Dimg_2" class="demo cursor"  style="width:100%" onclick="currentSlide(2)">
+    </div>
+   <div class="column"           style="display:none;">
+      <img  id="Dimg_3" class="demo cursor"  style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column"           style="display:none;">
+      <img id="Dimg_4" class="demo cursor" style="width:100%" onclick="currentSlide(4)">
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+function cl(){var itm = document.getElementsByClassName("col-md-4 col-sm-6")[0];
+var cln = itm.cloneNode(true);document.getElementById("dco").appendChild(cln);}</script>
+							
+	  <!-- 	ova e za klon --> 	<div id="BLANKO" class="ok" style="display:none;">          <!---------------------------none-->
+<div class="col-md-4 col-sm-6" ><div class="sc-product-item thumbnail"><img data-name="product_image" onclick="kliknato(this);">
+<div class="caption"><h4 data-name="product_name">BL#</h4><p data-name="product_desc">BLd</p><hr class="line"><div>
+<div class="form-group"><label>Size: </label><select name="product_size" class="form-control input-sm" onchange="cnacng(this);">
+<option>S</option>
+<option>M</option> <!-- 
+<option>L</option> -->
+</select></div>
+<div class="form-group"><label>Color: </label><br /><!--
+<label class="radio-inline"><input type="radio" name="product_color" value="red"><span class="smtTxt">red</span></label>
+<label class="radio-inline"><input type="radio" name="product_color" value="blue"><span class="smtTxt">blue</span></label>
+<label class="radio-inline"><input type="radio" name="product_color" value="green"><span class="smtTxt">green</span></label>--></div>
+<div class="form-group2"><input class="sc-cart-item-qty" name="product_quantity" min="1" value="1" type="number">QTI box</div>
+<strong class="price pull-left"></strong><input name="product_price" value="1.55" text="measafee" type="hidden" />
+<input name="product_id" value="12"text="measafee" type="hidden" />
+<button  class="sc-add-to-cart btn btn-success btn-sm pull-right">Add to cart</button>
+</div><div class="clearfix"></div></div></div></div> 
+                             </div>
+			
+                    <div class="panel-body">  
+                        <div class="row" id="dco">  
+                            <!-- BEGIN PRODUCTS -->
+<script>
+var eln=K.length+V.length+A.length;var EDITlmnt;///odposlem 18 do krajpt se special
+var TR=[1,4,7,2,5,8,3,6,9,10,13,16,11,14,17,12,15,18,19,20,21];var WW;var vv;var CC;var XX; var BB;
+
+function cnacng(a){WW=parseInt(a.parentElement.parentElement.parentElement.parentElement.parentElement.id);
+vv=a.value.slice(1,2); //ove ke bide so parno i neparno 
+if(WW<9){XX=0;BB=0;}else if(WW<18){XX=1;BB=-9;} else{XX=2;BB=-18}
+if(vv%2==1){CC=KVATelmt[XX][WW+BB][3]}else{CC=KVATelmt[XX][WW+BB][5]}  /// 3 za cna5  5 za cna8
+document.getElementsByClassName("price pull-left")[WW+1].innerHTML="€ "+CC;
+document.getElementsByName("product_price")[WW+1].value=CC;
+
+}
+var QQ=11;var O;
+var KVATelmt=[K,V,A];var SLKT=0;var ZGOLEMKO=0;var IDer;
+for(i=0;i<eln;i++)//19 se zamisleni i neka taka bidat
+{cl();EDITlmnt= document.getElementsByClassName("col-md-4 col-sm-6")[1+i];
+ if(i<KVATelmt[0].length)                   {if(SLKT!=KVATelmt[0]){SLKT=KVATelmt[0];ZGOLEMKO=0;IDer="K";}}else
+ if(i<KVATelmt[0].length+KVATelmt[1].length){if(SLKT!=KVATelmt[1]){SLKT=KVATelmt[1];ZGOLEMKO=0;IDer="V";}}else
+ 
+                         {if(SLKT!=KVATelmt[2]){SLKT=KVATelmt[2];ZGOLEMKO=0;IDer="A";}}
+
+EDITlmnt.className="col-md-4 col-sm-6 filterDiv *"+IDer+i;
+EDITlmnt.id=i;/////////////////ova e toa toa
+///trkolona 1-4-7-2-5-8-3-6-9  10-13-16-11-14-17-12-15-18 
+//// ft edit
+if(i<9){if(O!="0"){O="0"}}else{if(O!=""){O=""}}
+EDITlmnt.children[0].children[0].src="cristaylisBUY_files/data/PRO_/ID_"+O+TR[i]+"/img1.jpg";
+EDITlmnt.children[0].children[0].alt=TR[i];  // ova go gava poslem u mjs id na elementot
+EDITlmnt.children[0].children[0].style="height:125px;";
+//EDITlmnt.children[0].children[0].src
+///
+EDITlmnt.children[0].children[1].children[0].innerHTML=SLKT[ZGOLEMKO][0];// produkt ime
+EDITlmnt.children[0].children[1].children[1].innerHTML=SLKT[ZGOLEMKO][1];// produkt detals
+//EDITlmnt.children[0].children[0].children[2] // ova e linija nepotrebna zasea
+
+
+//EDITlmnt.children[0].children[1].children[3].children[1].ARTbut=i;
+
+EDITlmnt.children[0].children[1].children[3].children[0].children[0].innerHTML="QTI inbox:";// ovae e naslov za dropdown (tezina/volumen/litri)
+EDITlmnt.children[0].children[1].children[3].children[0].children[1].children[0].innerHTML="x5 glass";//stg1
+EDITlmnt.children[0].children[1].children[3].children[0].children[1].children[1].innerHTML="x8 glass";//stg2
+//EDITlmnt.children[0].children[1].children[3].children[0].children[1].children[2].innerHTML=SLKT[ZGOLEMKO][8];//stg3
+
+EDITlmnt.children[0].children[1].children[3].children[1].children[0].innerHTML=SLKT[ZGOLEMKO][2];//ova e labe za radio
+//EDITlmnt.children[0].children[1].children[3].children[1].children[2].children[0].innerHTML=SLKT[ZGOLEMKO][2];//stg1 radio value na selektot!!
+//EDITlmnt.children[0].children[1].children[3].children[1].children[3].children[0].innerHTML=SLKT[ZGOLEMKO][2];//stg2 radio
+//EDITlmnt.children[0].children[1].children[3].children[1].children[4].children[0].innerHTML=SLKT[ZGOLEMKO][2];//stg3 radio
+
+//EDITlmnt.children[0].children[1].children[3].children[1].children[2].children[1].innerHTML=SLKT[ZGOLEMKO][2];//stg1 radio txt na gledanje!!
+//EDITlmnt.children[0].children[1].children[3].children[1].children[3].children[1].innerHTML=SLKT[ZGOLEMKO][2];//stg2  radio txt na gledanje!!
+//EDITlmnt.children[0].children[1].children[3].children[1].children[4].children[1].innerHTML=SLKT[ZGOLEMKO][2];//stg3  radio txt na gledanje!!
+
+EDITlmnt.children[0].children[1].children[3].children[3].innerHTML="€ "+SLKT[ZGOLEMKO][3];// ovdeka e cenata
+
+
+EDITlmnt.children[0].children[1].children[3].children[4].value=SLKT[ZGOLEMKO][3];//  ovie se hideno
+EDITlmnt.children[0].children[1].children[3].children[5]=SLKT[ZGOLEMKO][2];
+
+ZGOLEMKO=ZGOLEMKO+1;}</script>
+
+                            <!-- END PRODUCTS -->
+</div>
+
+
+
+ <!-- Grid -->  <div class="info" >
+<h1 class="w3-center w3-text-grey" style="top: 55px;position: relative;"><b>#1 GLASS ECOMMERC</b></h1>
+<!-- Wedding information -->
+<div class="w3-container  w3-pale-red w3-padding-16 w3-center">
+
+<!-- Background photo -->
+<div class="w3-display-container " style="">
+   
+<img class="w3-round-large  " src="cristaylisBUY_files/IMG/img_1.png" style="width:100%;margin:64px 0;scale:1.13">
+
+  <div class="w3-display-middle w3-text-white w3-center">
+    <p class="w3-xlarge">You Are Invited</p>
+  </div>
+</div>
+
+
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-display-container " src="cristaylisBUY_files/IMG/img_2.png" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Wedding Ceremony - 2:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p>
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>Some place, an address</p>
+        <p>Some where, some address</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="Agri">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Term of use </span>
+  </div>
+
+    <a href="cristaylisBUY_files/data/agriment/Agriment.html"   target="_blank"  class="w3-button w3-block w3-black">See detals about Agriment and more</a>
+
+
+</div>
+
+
+</div></div></div> </div>           
+<aside class="col-md-4"  style="float: inline-start;">
+
+<br>
+<div class="w3-panel w3-center" >
+  <div class="w3-bar-item w3-padding-24 w3-wide " style="float:unset;background-color:#000000;color:#ffffff;border-radius:15px;" >
+  <div  id="nsl-1">CRIYSTYLIS  <i class="fa fa-diamond"></i> </div></div>
+  
+<div id="myBtnContainer" class="w3-center">
+  <a class="BTN*akcija"  href="#info"  onclick="filterSelection('*z');shIFO(true);">cristaylis info</a>
+</div>	
+
+<br></div><div id="smartcart"></div>
+
+ 
+<div   class="w3-center w3-wide *PYP" style="margin:auto;">
+<img onclick=" window.open('https://www.google.com');"    src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/12_bdg_payments_by_pp_2line.png">
+</div>
+
+</aside></div></section></div>
+  
+  
+<div id="contact" class="w3-modal" style="display:none;">
+  <div class="w3-modal-content w3-animate-zoom" style="width:90%;">
+    <div class="w3-container w3-black">
+      <span onclick="closeModal()" class="w3-button w3-display-topright w3-large " style="color:red;text-shadow: none;">X</span>
+      <h1><div id="thankyou_message" style="font-size: x-large;"> 
+	   <span id="Ifo" class="mcls" style="color:black;" ></span>
+	 </div></h1>
+	 <br>
+<h1 id="begrus" class="w3-center" style="color:aliceblue;"><span>besthelen sie dein bestelung</span><hr></h1>
+     <div style="display:none;">
+	   <div id="BSTid"></div>
+	   <div id="BSTcna"></div></div>
+	 
+	 </div>
+	
+	<div class="w3-container ">
+	
+	<div class="container " id="tst">
+  <div class="w3-row-padding w3-padding-32">
+  
+<div  id="qqQQ" style="width:130%;" ></div> <br>
+
+  
+    <div class="w3-half">
+
+<form class="gform" id="gform" method="POST"  
+
+
+
+action="https://script.google.com/macros/s/AKfycbz_XAG4xbF1BKm7tKiblfyeHNVA3wSGiFBc_ZWg_fE1HibxNUUC/exec">
+
+  <div style="display:none;">
+   <input id="DATEofORDER"  value="" name="D_ORDR" >
+   <input id="BST_id"  value="" name="BESTELUNG_ID" >
+   <input id="KND_DTA" value="" name="KND_DTA" ></div> 
+   
+					<a>Preise zusamen :<input id="MOEbst" style="width:80px;border-radius:20%;text-align:center;" class="w3-input w3-padding-16 w3-border"  disabled text="measafee" required="" name="PRODUCTS"> mit MtSt ,mit Versandcost</a>
+
+					<br><input class="w3-input w3-padding-16 w3-border" id="EML" type="email" placeholder="your dasda@email.com" required="" name="email" value="">(EMAIL) 
+
+					<br><label class="c00ntainer"><span >eine Coupone ?</span> <br>
+					<input type="checkbox" id="kpn" onclick="KPNge();" value="" name="Coupon?" >
+					<span class="checkmark"></span></label>
+					<input id="cpntx" class="w3-input w3-padding-16 w3-border" type="text"  name="KPN">
+					<br><label class="c00ntainer"><span >mit Geschenk Begrusen ?</span> <br>
+					<input type="checkbox" id="ckb" onclick="CKge();"  value="" name="G_Begrus?" >
+					<span class="checkmark"></span></label>
+					<input id="cbtx" style="width:100%;" class="w3-input w3-padding-16 w3-border" type="text"  name="GESENK_info">
+					<br><label class="c00ntainer"><span >eine wunshe arival date ?</span>  <br>
+					<input type="checkbox" id="dbe" onclick="DTge();"  value="" name="W_Date?" > <br>
+					<span class="checkmark"></span></label>
+					<input style="margin-top:-33px;" id="dte" class="w3-input w3-padding-16 w3-border"  type="date"  name="DATE_FINISH">
+
+					<br><a>empfanger detals</a>
+					<br><p>Name & Vorname:<input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Petar Muler" required="" name="nameKUNDE"></p>
+					<br><p> Strassen:<input class="w3-input w3-padding-16 w3-border" type="text" placeholder="maybachstrasse 8" required="" name="ADRS_STRASSE"></p>
+					<br><p>Stadt:<input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Berlin" required="" name="ADRS_STADT"></p>
+					<br><p>PLC:<input class="w3-input w3-padding-16 w3-border" type="number" placeholder="12345" required="123465789" name="ADRS_PLZ"></p>
+	  
+    
+	  <div class="IDI HDN"  >  
+<input  class="IDI"  name="PR_1">
+<input  class="IDI"  name="PR_2">
+<input  class="IDI"  name="PR_3">
+<input  class="IDI"  name="PR_4">
+<input  class="IDI"  name="PR_5">
+<input  class="IDI"  name="PR_6">
+<input  class="IDI"  name="PR_7">
+<input  class="IDI"  name="PR_8">
+<input  class="IDI"  name="PR_9">
+<input  class="IDI"  name="PR_10">
+<input  class="IDI"  name="PR_11">
+<input  class="IDI"  name="PR_12">
+<input  class="IDI"  name="PR_13">
+<input  class="IDI"  name="PR_14">
+<input  class="IDI"  name="PR_15">
+<input  class="IDI"  name="PR_16">
+<input  class="IDI"  name="PR_17">
+<input  class="IDI"  name="PR_18">
+<input  value="CR"   name="KEY"  >
+<input  class="IDI"  name="PR_19">
+<input  class="IDI"  name="PR_20">
+<input  class="IDI"  name="PR_21">
+<input  class="IDI"  name="PR_22">
+<input  class="IDI"  name="PR_23">
+<input  class="IDI"  name="PR_24">
+<input  class="IDI"  name="PR_25">
+<input  class="IDI"  name="PR_26">
+<input  class="IDI"  name="PR_27">
+</div></div></div>
+
+
+
+</div>
+
+
+
+	   
+	 
+<div id="KOPCEppl" style="padding: 33px;"> 	  <!-- PayPal Logo -->
+<button class="w3-button w3-light-grey w3-block w3-center"  style="border-radius: 15px;">
+<h1><span>bestelen jetz</span></h1>
+<a id="sndBTN">bestelen zie jetz <br><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_200x51.png" /> </a>
+
+</button>
+</div>
+
+</form></div></div></div> </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center" style="z-index:100;">
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+</div>
+   <p class="w3-medium w3-center" style="opacity:0.7;">Powered by<br><a href="https://mccg.sytes.net">
+   <img style="width:111px;" src="cristaylisBUY_files/IMG/MCLogo1000.png"></a  target="_blank"></p>
+</footer>
+
+
+<script type="text/javascript" src="cristaylisBUY_files/JS/srkt.js"></script>
+<script type="text/javascript"  src="cristaylisBUY_files/JS/slaydshow/slajdshow.js"     ></script>
+
+<script data-cfasync="false" type="text/javascript" src="cristaylisBUY_files/JS/JS/v6/MJS.js"></script>
+<script data-cfasync="false" type="text/javascript" src="cristaylisBUY_files/JS/JS/v6/form-submission-handler.js"></script>
+
+</body></html>
