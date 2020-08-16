@@ -65,7 +65,7 @@ var FRM=document.getElementById("tst");  // gform/ ova e toa glavnoto za snemuva
 
     // add form-specific values into the data
     formData.formDataNameOrder = JSON.stringify(fields);
-    formData.formGoogleSheetName = form.dataset.sheet || "ajde"; // default sheet name !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    formData.formGoogleSheetName = form.dataset.sheet || "CR"; // default sheet name !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
 
 
