@@ -146,8 +146,9 @@ for(i=0;i<ElemtiZAemail.length;i++){
 	NSV[3]="	dein bestelung detals:			"+TXT[0];
 	NSV[4]="	||Detals fur bestelung empfanger :			" +TXT[1]+"|| ADRESE_STRASSE-			"+TXT[2]+"|| ADRESE_STADT-			"+TXT[3]+"|| ADRESE_PLZ-			"+TXT[4];
 
-for(i=0;i<NSV.length;i++){ALL_NSV=ALL_NSV+NSV[i]}
-    document.getElementsByName("KND_DTA")[0].value=ALL_NSV;
+//for(i=0;i<NSV.length;i++){ALL_NSV=ALL_NSV+NSV[i]} document.getElementsByName("KND_DTA")[0].value=ALL_NSV;    
+    document.getElementsByName("KND_DTA")[0].value=NSV[3]+NSV[4];
+	
 	
 //}
 }
