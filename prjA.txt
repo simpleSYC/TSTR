@@ -1,4 +1,4 @@
-A=[ 
-A_0=["waserSprudel-","SodaStream Crystal 2.0 ","10W<br>160 x 260 x550 mm<br>","Verfugbar :7",4,0,107],
-A_1=["biersprudel-","Philips ","25W<br> 49,4 x 26,1 x 44,4 cm<br>","Verfugbar :12",4,0,275],
-A_2=["biersprudel-","Poevtin","15W<br> 49,4 x 26,1 x 44,4 cm<br>","Verfugbar :23",4,0,139]]
+[ 
+["waserSprudel-","SodaStream Crystal 2.0 ","10W<br>160 x 260 x550 mm<br>","Verfugbar :7",4,0,107],
+["biersprudel-","Philips ","25W<br> 49,4 x 26,1 x 44,4 cm<br>","Verfugbar :12",4,0,275],
+["biersprudel-","Poevtin","15W<br> 49,4 x 26,1 x 44,4 cm<br>","Verfugbar :23",4,0,139]]
